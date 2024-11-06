@@ -1,1 +1,3 @@
-# Fortified-Log-Automation-Brute-Force-Detection-and-Defense
+# Purpose
+
+In this project, a comprehensive security assessment was conducted to investigate and mitigate a brute-force attack on a CentOS VM. The process involved downloading and analyzing authentication logs to identify usernames targeted in the attack, cross-referencing them with legitimate user records, and implementing security measures such as changing the SSH port, enforcing even stronger password policies, enabling multi-factor authentication, and restricting SSH access to trusted IPs. Continuous monitoring was set up using Fail2ban and cron jobs to detect and report future threats, ensuring ongoing protection.
